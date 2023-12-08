@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/all.css" />
+
+    <!-- fancybox -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+    <!-- Owl -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <script src="js/modernizr.custom.js"></script>
+    <link href="css/animate.css" rel="stylesheet" />
+    <link
+      href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Nunito:400,300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- Products -->
+    <!-- <link
+      rel="stylesheet"
+      href="http://netdna.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css"
+    /> -->
+    <link rel="stylesheet" href="liquo/liquo.css" />
+
+    <!-- Animate -->
+    <link rel="stylesheet" href="./plugins/animate.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style2.css" />
+    <!-- <link rel="stylesheet" href="styling.css" /> -->
+  </head>
+
+  <body>
+    <div class="mobile-menu">
+      <div class="mobile-close">
+        <a href="index.html">
+          <img src="images/logof.png" alt="" width="60%" />
+        </a>
+        <a href="javascript:void(0)" id="menu-close"
+          ><i class="fa fa-times"></i
+        ></a>
+      </div>
+      <div class="mobile-menu-body" id="mobile-menu-body"></div>
+    </div>
+    <section class="navbar-main">
+      <div class="container">
+        <div class="row align-items-center nav-full py-md-3">
+          <div class="col-lg-3 col-md-12 col-sm-12">
+            <div class="navbar-respon d-flex justify-content-between">
+              <div class="header-logo">
+                <a class="navbar-brand logo-img" href="index.html">
+                  <img src="images/logo.png" alt="" />
+                </a>
+              </div>
+              <div class="hamburger d-block d-lg-none">
+                <div class="hamburger-container">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-9 col-md-6 col-sm-6 d-none d-lg-block">
+            <div class="bottom-row">
+              <ul class="list-inline text-end navigation-list">
+                <li class="list-inline-item active">
+                  <a href="./index.html">Home</a>
+                </li>
+                <li class="list-inline-item nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    aria-expanded="false"
+                  >
+                    Products
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                      <a class="dropdown-item" href="./potatoes.html"
+                        >Potatoes</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./Mango.html">Mango</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./Apples.html">Apple</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./Keenu.html">Kinnow</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./Banana.html">Bananas</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="list-inline-item">
+                  <a href="about.html">About Us</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="./Gallery.html">Gallery</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="./about.html">About Us</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="./Contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slider -->
+    <div class="mobile">
+      <div class="contents">
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./Images/pexels-pixabay-144248.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption">
+                <h1 class="wow bounceInDown animated">
+                  FRESH and BEST <br />
+                  DELIVERED <span class="headings"> WITH LOVE </span>
+                </h1>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./Images/pexels-tim-mossholder-3804878.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption">
+                <h1 class="wow bounceInDown animated">
+                  AS fresh as <span class="headings"> its gets </span>
+                </h1>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./Images/apples-1776744_1920.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption">
+                <h1 class="wow bounceInDown animated">
+                  Spreading The <br />
+                  Goodness <span class="headings"> of Fruits </span>
+                </h1>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+          >
+            <span
+              class="fa-solid fa-chevron-left fa-3x"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span
+              class="fa-solid fa-chevron-right fa-3x"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Menu -->
+
+    <!-- Video -->
+    <section class="video">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h1 class="you">
+              <a
+                data-fancybox="gallery"
+                href="https://www.youtube.com/embed/hY5uPJUrrB8?autoplay=1&wmode=opaque&fs=1"
+                ><i class="fa fa-play-circle"></i> Watch the Video</a
+              >
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section>
+      <div class="container-fluid abo" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-xs-12 owl-carousel cardss">
+              <div class="card">
+                <div class="card-body">
+                  <h2 class="card-title grow">
+                    Grower <span class="one"> 01</span>
+                  </h2>
+                  <hr />
+                  <p class="card-text">
+                    Before we pack and ship your produce, we grow it for you. we
+                    are grower at heart. Growing the highest quality produce is
+                    our goal.
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h2 class="card-title pro">
+                    PROCESSOR <span class="one"> 02</span>
+                  </h2>
+                  <hr />
+                  <p class="card-text">
+                    Jamshaid Traders having very strong processing units
+                    equipped with the latest machinery as well as qualified and
+                    trained manpower.
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h2 class="card-title pac">
+                    PACKER <span class="one"> 03</span>
+                  </h2>
+                  <hr />
+                  <p class="card-text">
+                    Jamshaid Traders adopts safe and international packing
+                    standards by using latest techniques and designs in highly
+                    sophisticated plant that carry multi layered packing for the
+                    product safety and protection until it reaches its final
+                    destination.
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h2 class="card-title exp">
+                    EXPORTER <span class="one"> 04</span>
+                  </h2>
+                  <hr />
+                  <p class="card-text">
+                    Jamshaid Traders is not only providing its quality products
+                    in local markets but also all over the world to its
+                    customers. Our customers are satisfied with not only our
+                    quality but our packing and fast services.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-xs-12">
+              <h1 class="wel">WELCOME TO OUR SITE</h1>
+              <div class="row pic-text">
+                <div class="col-md-2">
+                  <div class="mamo-img">
+                    <img
+                      class="mamo"
+                      src="./Images/Testimonials/WhatsApp Image 2023-08-03 at 13.02.08.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="col-md-10 tex">
+                  <p>
+                    A family of families. The family-owned and operated farms
+                    that sell vegetables and Fruits under the Jamshiad Traders
+                    label have been honing their craft for generations. Long
+                    before "JAMSHAID TRADERS" grew to one of the leading
+                    supplier of Mandarins (Kinnow), Potatoes, Mangoes , Bananas
+                    , Apple, and all kind of vegetables across the world, we are
+                    working closely with farmers to adopt modern ways to get
+                    maximum yield from orchards and ensuring the quality of
+                    fruits.Jamshaid traders fouded processing plant since
+                    2012.we serve with best quality potatoes for export to all
+                    over the world.
+                    <br />
+                    We are committed to deliver quality produce, fresh from the
+                    farms and food solutions with integrity and consistency.
+                  </p>
+                  <h5 class="sign">Jamshaid Iqbal</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section>
+      <div class="container-fluid con-products" id="products">
+        <div class="row">
+          <h1 class="product">Products</h1>
+          <div class="lines">
+            <hr class="hr-one" />
+            <i class="bi bi-heart"></i>
+            <hr class="hr-one" />
+          </div>
+          <div class="col-xs-12">
+            <div class="portfolio__filter filter__home" id="gallery-menu">
+              <button class="filter-button active" data-filter="all">
+                All
+              </button>
+              <button class="filter-button" data-filter="first">
+                Potatoes
+              </button>
+              <button class="filter-button" data-filter="second">Kinnow</button>
+              <button class="filter-button" data-filter="fifth">Mango</button>
+              <button class="filter-button" data-filter="Sixth">Banana</button>
+              <button class="filter-button" data-filter="third">Apples</button>
+              <button class="filter-button" data-filter="fourth">
+                All Kind of Fruits & vegetables
+              </button>
+            </div>
+            <div class="portfolio__img" id="gallery">
+              <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3 filter p0 fifth">
+                  <a
+                    href="./Images/mangoes-1320111_1280.jpg"
+                    data-fancybox="gallery"
+                  >
+                    <img src="./Images/mangoes-1320111_1280.jpg" alt="" />
+                  </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 filter p0 Sixth">
+                  <a
+                    href="./Images/banana-2449019_1280.jpg"
+                    data-fancybox="gallery"
+                  >
+                    <img src="./Images/banana-2449019_1280.jpg" alt="" />
+                  </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 filter p0 first">
+                  <a
+                    href="./Images/potatos/many-potatoes-together.jpg"
+                    data-fancybox="gallery"
+                  >
+                    <img
+                      src="./Images/potatos/many-potatoes-together.jpg"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 filter p0 first">
+                  <a href="./Images/Potato_Red.jpg" data-fancybox="gallery">
+                    <img src="./Images/Potato_Red.jpg" alt="" />
+                  </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 filter p0 first">
+                  <a
+                    href="./Images/potatos/potatoes-1585060_1920.jpg"
+                    data-fancybox="gallery"
+                  >
+                    <img
+                      src="./Images/potatos/potatoes-1585060_1920.jpg"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 filter p0 second">
+                  <a
+                    href="./Images/Keenu/Citrus (Kinnow), Fruit Pakistan.jpeg"
+                    data-fancybox="gallery"
+                  >
+                    <img
+                      src="./Images/Keenu/Citrus (Kinnow), Fruit Pakistan.jpeg"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 filter p0 second">
+                  <a
+                    href="./Images/Keenu/orange-citrus-fruit-food-fresh-ripe-juicy-whole-sliced-cut-half-raw-santra-closeup-naranja-image-laranja-photo-stock-265431293-transformed.webp"
+                    data-fancybox="gallery"
+                  >
+                    <img
+                      src="./Images/Keenu/orange-citrus-fruit-food-fresh-ripe-juicy-whole-sliced-cut-half-raw-santra-closeup-naranja-image-laranja-photo-stock-265431293-transformed.webp"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 filter p0 second">
+                  <a
+                    href="./Images/Keenu/pexels-tim-mossholder-3804878.jpg"
+                    data-fancybox="gallery"
+                  >
+                    <img
+                      src="./Images/Keenu/pexels-tim-mossholder-3804878.jpg"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 filter p0 third">
+                  <a
+                    href="./Images/potatos/Light Red.jpg"
+                    data-fancybox="gallery"
+                  >
+                    <img src="./Images/potatos/Light Red.jpg" alt="" />
+                  </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 filter p0 third">
+                  <a
+                    href="./Images/potatos/Full Red.jpg"
+                    data-fancybox="gallery"
+                  >
+                    <img src="./Images/potatos/Full Red.jpg" alt="" />
+                  </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 filter p0 fourth">
+                  <a href="./Images/potatos/onion.jpeg" data-fancybox="gallery">
+                    <img src="./Images/potatos/onion.jpeg" alt="" />
+                  </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 filter p0 fourth">
+                  <a
+                    href="./Images/potatos/tomatoes-1296x728-feature.jpg"
+                    data-fancybox="gallery"
+                  >
+                    <img
+                      src="./Images/potatos/tomatoes-1296x728-feature.jpg"
+                      alt=""
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Page -->
+
+    <section>
+      <div class="container-fluid contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12 form-contact">
+              <form
+                action="https://formspree.io/f/xyyqeypo"
+                class="form_contact"
+                method="post"
+              >
+                <h1>Contact Us</h1>
+                <div class="form-floating mb-3">
+                  <input
+                    name="Name"
+                    type="text"
+                    class="form-control name"
+                    id="userName floatingInput"
+                    placeholder="Name"
+                  />
+                  <label for="floatingInput">Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input
+                    name="Email"
+                    type="email"
+                    class="form-control email"
+                    id="email floatingInput"
+                    placeholder="name@example.com"
+                  />
+                  <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating">
+                  <textarea
+                    name="Message"
+                    class="form-control"
+                    placeholder="Leave a comment here"
+                    id="mess floatingTextarea2"
+                    style="height: 100px"
+                  ></textarea>
+                  <label for="floatingTextarea2">Message</label>
+                </div>
+                <button id="submit" type="btn" class="form-submit">
+                  Submit
+                </button>
+              </form>
+              <br />
+              <br />
+              <br />
+              <br />
+              <div class="row text-center">
+                <div class="col contact-text">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  <br />
+                  <p>
+                    Dipalpur Bypass Rd، near Kashmir CNG, Depalpur, Okara,
+                    Punjab, Pakistan
+                  </p>
+                </div>
+                <div class="col contact-text">
+                  <i class="bi bi-telephone-fill"></i>
+                  <br />
+                  <p>+92 3006884181</p>
+                </div>
+                <div class="col contact-text">
+                  <i class="bi bi-envelope-fill"></i>
+                  <br />
+                  <p>jamshaid_traders@yahoo.com</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-sm-12 col-xs-12">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3429.837959672623!2d73.75113167511246!3d30.722955486105814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3918197bf25256c7%3A0xfef389f61ba4ad60!2sJamshaid%20Potato%20Processing%20Plant!5e0!3m2!1sen!2s!4v1691437583858!5m2!1sen!2s"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonals -->
+    <section class="testimonals-main">
+      <div class="container-fluid">
+        <div class="container heading-test">
+          <h1 class="text-center">Testimonials</h1>
+          <br />
+          <div class="testimonals">
+            <div class="owl-carousel owl-theme cardd">
+              <div class="image-card">
+                <div class="image-testimonal-img">
+                  <img
+                    src="./Images/Testimonials/wasif.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body1">
+                  <h1>Muhammad Wasif</h1>
+                  <p class="card-text">
+                    <i class="fa-solid fa-quote-left"></i> The owner of jamshaid
+                    potato processing plant such a nice and humble person. He is
+                    very cooperative and helping man
+                    <i class="fa-solid fa-quote-right"></i>
+                  </p>
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i>
+                </div>
+              </div>
+              <div class="image-card">
+                <div class="image-testimonal-img">
+                  <img
+                    src="./Images/Testimonials/MYXJ_20170209154355_fast.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </div>
+
+                <div class="card-body1">
+                  <h1>Abdul Majeed</h1>
+                  <p class="card-text">
+                    <i class="fa-solid fa-quote-left"></i> Mr jamshed sb is a
+                    honest and great experienced person in potato export and
+                    processing<i class="fa-solid fa-quote-right"></i>
+                  </p>
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i>
+                </div>
+              </div>
+              <div class="image-card">
+                <div class="image-testimonal-img">
+                  <img
+                    src="./Images/Testimonials/wasif.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body1">
+                  <h1>Javid Iqbal</h1>
+                  <p class="card-text">
+                    <i class="fa-solid fa-quote-left"></i> Nothing comes close
+                    to the freshness and flavour of the produce which is
+                    produced by Jamshaid Traders. Beautiful fruits and
+                    vegetables, in season... thank goodness we found Jamshaid
+                    Traders. <i class="fa-solid fa-quote-right"></i>
+                  </p>
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- fOOTER -->
+    <footer>
+      <div class="container-fluid footer-main">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-xs-12">
+              <h1 class="footer-title">Jamshaid Traders</h1>
+              <p>
+                <i class="fa-solid fa-quote-left"></i>The family-owned and
+                operated farms that sell vegetables and Fruits under the
+                Jamshiad Traders label have been honing their craft for
+                generations. Long before "JAMSHAID TRADERS" grew to one of the
+                leading supplier of Mandarins (Kinnow), Potatoes, Apple, and all
+                kind of vegetables across the world
+                <i class="fa-solid fa-quote-right"></i>
+              </p>
+            </div>
+            <div class="col-md-4 col-xs-12 platform">
+              <h1>Social Media Plaforms</h1>
+              <a
+                target="_blank"
+                href="https://www.facebook.com/profile.php?id=100063815595024"
+                class="bi bi-facebook"
+              ></a>
+              <a
+                target="_blank"
+                href="https://www.youtube.com/@jtpotatoprocessingplant6074"
+                class="bi bi-youtube"
+              ></a>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/jamshaid.iqbal.31392/"
+                class="bi bi-instagram"
+              ></a>
+              <a
+                target="_blank"
+                href="https://wa.me/923006884181?text=Hi"
+                class="bi bi-whatsapp"
+              ></a>
+            </div>
+          </div>
+          <div class="row text-center pt-3">
+            <h6>© Copyright 2023. All Rights Reserved by Jamshaid_traders</h6>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="./plugins/wow.min.js"></script>
+    <script src="./fontawesome-free-6.4.0-web/js/all.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      (function ($) {
+        "use strict";
+
+        // Testimonial Carousel
+        if ($(".testimonial-carousel").length) {
+          $(".testimonial-carousel").owlCarousel({
+            animateOut: "slideOutDown",
+            animateIn: "zoomIn",
+            loop: true,
+            margin: 0,
+            nav: true,
+            smartSpeed: 300,
+            autoplay: 7000,
+            navText: [
+              '<span class="arrow-left"></span>',
+              '<span class="arrow-right"></span>',
+            ],
+            responsive: {
+              0: {
+                items: 1,
+              },
+              600: {
+                items: 1,
+              },
+              800: {
+                items: 1,
+              },
+              1024: {
+                items: 1,
+              },
+            },
+          });
+        }
+      })(window.jQuery);
+    </script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Nav -->
+    <script>
+      $(".js-menu").on("click", () => {
+        $(".js-menu").toggleClass("active");
+        $(".js-nav").toggleClass("open");
+        $(".js-nav__list").toggleClass("show");
+      });
+    </script>
+
+    <!-- OWL -->
+    <script>
+      $(".cardss").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true,
+        responsive: {
+          100: {
+            items: 1,
+          },
+        },
+      });
+      $(".owl-prev").html(
+        '<i class="bi bi-arrow-left-square-fill icon arrow"></i>'
+      );
+      $(".owl-next").html(
+        '<i class="bi bi-arrow-right-square-fill icon arrow2"></i>'
+      );
+    </script>
+    <script>
+      $(".cardd").owlCarousel({
+        loop: true,
+        margin: 10,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true,
+        responsive: {
+          100: {
+            items: 1,
+          },
+        },
+      });
+    </script>
+
+    <!-- Products -->
+    <script>
+      $(document).ready(function () {
+        $(".filter-button").click(function () {
+          var value = $(this).attr("data-filter");
+
+          if (value == "all") {
+            $(".filter").show("1000");
+          } else {
+            $(".filter")
+              .not("." + value)
+              .hide("3000");
+            $(".filter")
+              .filter("." + value)
+              .show("3000");
+          }
+
+          if ($(this).hasClass("active")) {
+            $(this).removeClass("active");
+          } else {
+            $(".filter-button").removeClass("active");
+            $(this).addClass("active");
+          }
+        });
+      });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
